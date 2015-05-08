@@ -66,9 +66,9 @@ Calls the function that solves all the trivial positions, verifies if it is
 completely solved.
 If not, it creates a routine: while the sudoku is not solved, it walks through
 it and finds the number of possibilities of all the '0' that it finds in the way.
-
-
-####*main array = the current state of the sudoku
 If there is no possibility, it pops an array.
 If there are possibilities, it stacks all of them and after that, pops a new one,
 searchs again for the trivial blanks, and verifies again if it is solved.
+
+
+####*main array = the current state of the sudoku
